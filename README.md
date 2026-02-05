@@ -20,3 +20,6 @@ Voice-Based Scheme Eligibility Engine (AjraSakha Hackarthon)
 ##### Development plan (Setup, Core Features, UI, Advanced Features, Testing & Deployment), detailed task breakdowns, team structure, milestone schedule, risk management
 #### Technical Stack Environment Setup -
 ##### Complete technical stack specification with step-by-step environment setup instructions for local development, production deployment, MongoDB Atlas, Redis Cloud, CI/CD pipeline, and monitoring configuration.
+
+### **PROJECT** :
+#### Initial Setup Completed.
