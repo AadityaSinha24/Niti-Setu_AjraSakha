@@ -1,0 +1,27 @@
+{
+  "name": "Niti-Setu_AjraSakha",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build:types": "cd packages/types && npm run build",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build": "npm run build:types && npm run build:client && npm run build:server",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "cd client && npm test",
+    "test:server": "cd server && npm test",
+    "lint": "npm run lint:client && npm run lint:server",
+    "lint:client": "cd client && npm run lint",
+    "lint:server": "cd server && npm run lint",
+    "type-check": "npm run type-check:client && npm run type-check:server",
+    "type-check:client": "cd client && npm run type-check",
+    "type-check:server": "cd server && npm run type-check"
+  }
+}
